@@ -14,4 +14,4 @@ menuBtn.addEventListener('click', menuPage);
 
 aboutBtn.addEventListener('click', aboutPage);
 
-window.onload = () => menuPage();
+window.onload = () => homePage();
