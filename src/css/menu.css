@@ -1,0 +1,20 @@
+.menuClass {
+  background-color: #ffc60b;
+}
+
+.headDiv {
+  border: 5px solid #c16a08;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.h2 {
+  color: black;
+  font-size: 45px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.addMargintop {
+  margin-top: 25px;
+}

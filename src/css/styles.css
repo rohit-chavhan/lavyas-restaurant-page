@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+* {
+  font-family: 'lxgw-wenkai-tc-regular';
+  src: url('../font/LXGWWenKaiTC-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav {
+  background-color: #e34433;
+  display: flex;
+  height: 7vw;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+nav > button {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  border: 2px solid transparent;
+  padding: 0px 15px;
+  background-color: #e34433;
+}
+
+.logo {
+  padding: 5px 15px 5px 10px;
+}
+
+nav > button:hover {
+  border-bottom: 2px solid white;
+}
